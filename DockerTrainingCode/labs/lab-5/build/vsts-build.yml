@@ -1,0 +1,9 @@
+queue: Hosted Linux Preview
+steps:
+- task: Docker@0
+  displayName: Build image
+
+- task: Docker@0
+  displayName: Push image
+  inputs:
+    action: 'Push an image'

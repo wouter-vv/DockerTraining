@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ExpenseApprover": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "SERVICEBUSCONNECTIONSTRING": "Hahahiho"
+      }
+    }
+  }
+}
